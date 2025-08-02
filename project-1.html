@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2 {
+      color: #444;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #4CAF50;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      max-width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      margin-top: 1rem;
+      cursor: pointer;
+      padding: 0.7rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Avinash</h1>
+    <p>Web Developer & Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Avinash, a passionate web developer with experience in creating responsive and accessible websites using HTML, CSS, and JavaScript. I enjoy learning new technologies and solving real-world problems through code.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal website to showcase my skills, experience, and projects. Built with HTML, CSS, and a bit of JavaScript for interactions.</p>
+      </article>
+
+      <article class="project">
+        <h3>Weather App</h3>
+        <p>A simple weather application that fetches current weather data from a public API and displays it with user-friendly UI.</p>
+      </article>
+
+      <article class="project">
+        <h3>To-Do List</h3>
+        <p>A basic to-do list web app that allows users to add, remove, and mark tasks as completed using local storage.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Avinash | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
